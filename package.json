@@ -1,0 +1,24 @@
+{
+  "name": "barley-tea",
+  "version": "1.0.0",
+  "description": "\"a way to create a variety of precious mocktails on a rotating basis\"",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasminezalez/barley-tea.git"
+  },
+  "author": "\"jasminezalez\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasminezalez/barley-tea/issues"
+  },
+  "homepage": "https://github.com/jasminezalez/barley-tea#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0",
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,12 @@
+i {
+    pointer-events: none;
+}
+
+.tea-list-item {
+    transition: all 0.3s ease-out;
+}
+
+.tea-list-item-fall {
+    transform: translateY(12rem) rotateZ(10deg);
+    opacity: 0;
+}
